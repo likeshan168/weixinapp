@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "vue"
+  ],
+  "extends": [
+    "elemefe"
+  ],
+  "rules": {
+    "indent": [
+      0,
+      "4"
+    ],
+    "eol-last": 0,
+    "no-new": 0,
+    "semi": 0
+  }
+}
