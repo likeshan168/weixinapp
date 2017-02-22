@@ -12,6 +12,7 @@
   "author": "likeshan",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.15.3",
     "babel-polyfill": "*",
     "mint-ui": "^2.1.1",
     "vue": "^2.0.1",

@@ -1,0 +1,5 @@
+export const SET_DONE = 'SET_DONE';
+export const INCREASEMENT = 'INCREASEMENT';
+export const VALIDATE_LOGIN = 'VALIDATE_LOGIN';
+export const UPDATE_USERNAME = 'UPDATE_USERNAME';
+export const UPDATE_PASSWORD = 'UPDATE_PASSWORD';

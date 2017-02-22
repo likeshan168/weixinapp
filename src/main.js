@@ -1,9 +1,13 @@
 import Vue from 'vue';
+import vuex from 'vuex';
 import Mint from 'mint-ui';
 import VueRouter from 'vue-router';
 import 'mint-ui/lib/style.css'
+import store from './store';
+
 import App from './app';
 import Login from './components/login/login';
+Vue.use(vuex);
 Vue.use(VueRouter);
 Vue.use(Mint);
 
@@ -22,5 +26,6 @@ const router = new VueRouter({
 new Vue({
   el: '#app',
   router,
+  store,
   render: h => h(App)
 });
